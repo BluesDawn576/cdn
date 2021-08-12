@@ -3040,14 +3040,6 @@ body.is-preload #header:after {
     textarea {
         font-size: 13pt;
     }
-    h1 br,
-    h2 br,
-    h3 br,
-    h4 br,
-    h5 br,
-    h6 br {
-        display: none;
-    }
     /* List */
     ul.major-icons li {
         padding: 2em;
@@ -3194,9 +3186,6 @@ body.is-preload #header:after {
     /* Header */
     #header {
         padding: 4em 2em 4em 2em;
-    }
-    #header br {
-        display: none;
     }
     /* Footer */
     #footer {
