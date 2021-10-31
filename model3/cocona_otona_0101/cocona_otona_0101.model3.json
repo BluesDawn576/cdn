@@ -1,0 +1,73 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "cocona_otona_0101.moc3",
+		"Textures": [
+			"cocona_otona_0101.4096/texture_00.png"
+		],
+		"Physics": "cocona_otona_0101.physics3.json",
+		"DisplayInfo": "cocona_otona_0101.cdi3.json",
+		"Motions": {
+			"In": [
+				{
+					"File": "cocona_otona_0101_m01a_in.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Idle": [
+				{
+					"File": "cocona_otona_0101_m02a_idle.motion3.json"
+				}
+			],
+			"Ok": [
+				{
+					"File": "cocona_otona_0101_m03a_kettei.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0
+				}
+			],
+			"Out": [
+				{
+					"File": "cocona_otona_0101_m04a_out.motion3.json",
+					"FadeInTime": 1,
+					"FadeOutTime": 0
+				}
+			],
+			"R_Good": [
+				{
+					"File": "cocona_otona_0101_m05a_good.motion3.json",
+					"FadeInTime": 0
+				}
+			],
+			"R_Bad": [
+				{
+					"File": "cocona_otona_0101_m06a_bad.motion3.json",
+					"FadeInTime": 0
+				}
+			],
+			"R_Verygood": [
+				{
+					"File": "cocona_otona_0101_m07a_verygood.motion3.json",
+					"FadeInTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

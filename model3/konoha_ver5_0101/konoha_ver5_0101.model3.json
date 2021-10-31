@@ -1,0 +1,63 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "konoha_ver5_0101.moc3",
+		"Textures": [
+			"konoha_ver5_0101.4096/texture_00.png"
+		],
+		"Physics": "konoha_ver5_0101.physics3.json",
+		"Motions": {
+			"In": [
+				{
+					"File": "konoha_ver5_0101_m01a_in.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "konoha_ver5_0101_m02a_idle.motion3.json"
+				}
+			],
+			"Ok": [
+				{
+					"File": "konoha_ver5_0101_m03a_kettei.motion3.json"
+				}
+			],
+			"Out": [
+				{
+					"File": "konoha_ver5_0101_m04a_out.motion3.json"
+				}
+			],
+			"R_Good": [
+				{
+					"File": "konoha_ver5_0101_m05a_good.motion3.json"
+				}
+			],
+			"R_Bad": [
+				{
+					"File": "konoha_ver5_0101_m06a_bad.motion3.json"
+				}
+			],
+			"R_Verygood": [
+				{
+					"File": "konoha_ver5_0101_m07a_verygood.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"PARAM_EYE_L_OPEN",
+				"PARAM_EYE_R_OPEN"
+			]
+		}
+	],
+	"HitAreas": []
+}

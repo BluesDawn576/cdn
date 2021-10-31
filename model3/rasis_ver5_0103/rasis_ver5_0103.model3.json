@@ -1,0 +1,60 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "rasis_ver5_0103.moc3",
+		"Textures": [
+			"rasis_ver5_0103.4096/texture_00.png"
+		],
+		"Physics": "rasis_ver5_0103.physics3.json",
+		"Motions": {
+			"In": [
+				{
+					"File": "rasis_ver5_0103_m01a_in.motion3.json"
+				}
+			],
+			"Ok": [
+				{
+					"File": "rasis_ver5_0103_m03a_kettei.motion3.json"
+				}
+			],
+			"Out": [
+				{
+					"File": "rasis_ver5_0103_m04a_out.motion3.json"
+				}
+			],
+			"R_Good": [
+				{
+					"File": "rasis_ver5_0103_m05a_good.motion3.json"
+				}
+			],
+			"R_Bad": [
+				{
+					"File": "rasis_ver5_0103_m06a_bad.motion3.json"
+				}
+			],
+			"R_Verygood": [
+				{
+					"File": "rasis_ver5_0103_m07a_verygood.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "rasis_ver5_0103_m02a_idol.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

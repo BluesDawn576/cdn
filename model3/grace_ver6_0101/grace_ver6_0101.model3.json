@@ -1,0 +1,63 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "grace_ver6_0101.moc3",
+		"Textures": [
+			"grace_ver6_0101.4096/texture_00.png"
+		],
+		"Physics": "grace_ver6_0101.physics3.json",
+		"Motions": {
+			"In": [
+				{
+					"File": "grace_ver6_0101_m01a_in.motion3.json"
+				}
+			],
+			"Ok": [
+				{
+					"File": "grace_ver6_0101_m03a_kettei.motion3.json"
+				}
+			],
+			"Out": [
+				{
+					"File": "grace_ver6_0101_m04a_out.motion3.json"
+				}
+			],
+			"R_Good": [
+				{
+					"File": "grace_ver6_0101_m05a_good.motion3.json"
+				}
+			],
+			"R_Bad": [
+				{
+					"File": "grace_ver6_0101_m06a_bad.motion3.json"
+				}
+			],
+			"R_Verygood": [
+				{
+					"File": "grace_ver6_0101_m07a_verygood.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "grace_ver6_0101_m02a_idle.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}
